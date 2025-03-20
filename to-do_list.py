@@ -39,7 +39,7 @@ def view_task():
     for index, tasks in enumerate(task, start=1):
         print(index, tasks)
 
-# makind logic for done task.
+# making logic for done task.
 def mark_task_as_done():
     while True:
         task_status = input('Enter the task number you have done: ')
